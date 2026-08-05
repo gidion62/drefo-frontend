@@ -150,7 +150,13 @@
     padding-left: var(--space-md);
     padding-right: var(--space-md);
   }
-
+ @media (max-width: 640px) {
+  .container-main,
+  .container-narrow {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
   /* Hero carousel animation */
   @keyframes heroFade {
     0%, 16% { opacity: 1; }
